@@ -1,0 +1,81 @@
+/* :root {
+  --black: #1d1b1b;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--black);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  display: block;
+  padding: 2em 1em;
+  margin: 0 auto;
+
+  @media (min-width: 700px) {
+    max-width: 80vw;
+  }
+}
+
+figure {
+  margin: 0;
+  position: relative;
+  
+ 
+}
+
+.product-data-point {
+  
+  position: absolute;
+  color: black;
+  padding: 0.5em 0.8em;
+  background: pink;
+  transform: translate3d(50%, 150%);
+  pointer-events: none;
+  z-index: 2;
+  animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+ */
+/* img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+} */
+
+@media screen and (max-width: 600px) {
+  figure {
+    margin:0%;
+    padding: 0%;
+  }
+  div{
+margin: 0%;
+  }
+
+}
