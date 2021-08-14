@@ -1,16 +1,11 @@
 import mongoose from "mongoose"
 
 const {ObjectId} = mongoose.Schema.Types
-const commentSchema = new mongoose.Schema({
-    name:{
-text:String
-    },
-    comments:[{
-        text:String,
-        postedBy:{type:ObjectId,ref:"User"}
-    }],
+const defectSchema = new mongoose.Schema({
+    entries:[]
+    
     
 },{timestamps:true})
 
-const Comment=mongoose.model("Comment",commentSchema)
-export default Comment
+const Defect=mongoose.model("Defect",defectSchema)
+export default Defect
